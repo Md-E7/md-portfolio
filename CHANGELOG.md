@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="0.3.0"></a>
+## 0.3.0 (2022-12-10)
+
+### Added
+
+- ✨ Add technology page [[25da99e](https://github.com/Md-E7/md-portfolio/commit/25da99eb93de8ddb80ecfd33cb581877c3124854)]
+
+
 <a name="0.2.0"></a>
 ## 0.2.0 (2022-12-10)
 
