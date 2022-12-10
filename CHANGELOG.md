@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="0.2.0"></a>
+## 0.2.0 (2022-12-10)
+
+### Added
+
+- ✨ Add about page [[b53d544](https://github.com/Md-E7/md-portfolio/commit/b53d5443ecff0e8dcb3057889344c18e422eca40)]
+
+### Changed
+
+- 🍱 Add md-e7.svg [[e1eb22d](https://github.com/Md-E7/md-portfolio/commit/e1eb22dc511a52b75a45062ae16fca9349c57abc)]
+
+
 <a name="0.1.0"></a>
 ## 0.1.0 (2022-12-10)
 
