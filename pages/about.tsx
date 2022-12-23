@@ -8,6 +8,8 @@ const About = (): JSX.Element => {
     <>
       <Head>
         <title>About me | Md-E7</title>
+
+        <meta name={'description'} content={'Tentang saya | Md-E7'}/>
       </Head>
 
       <AppHeader/>

@@ -6,6 +6,8 @@ const Technology = (): JSX.Element => {
     <>
       <Head>
         <title>Technology | Md-E7</title>
+
+        <meta name={'description'} content={'Teknologi yang saya gunakan | Md-E7'}/>
       </Head>
 
       <AppHeader/>
