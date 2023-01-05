@@ -13,10 +13,10 @@ const Welcome = (): JSX.Element => {
 
       <AppHeader/>
 
-      <main className="container mx-auto flex flex-1 flex-col items-center justify-center p-4">
+      <main className="container mx-auto flex flex-1 flex-col items-center justify-center overflow-hidden p-4">
         <div className="flex flex-col items-center justify-center text-center">
-          <h1 className="font-mono text-4xl font-semibold md:text-6xl lg:text-7xl">Selamat datang</h1>
-          <h2 className="font-mono text-2xl font-semibold md:text-4xl lg:text-5xl">Di portofolio saya</h2>
+          <h1 className="animate__animated animate__fadeInBottomLeft font-mono text-4xl font-semibold md:text-6xl lg:text-7xl">Selamat datang</h1>
+          <h2 className="animate__animated animate__fadeInBottomRight font-mono text-2xl font-semibold md:text-4xl lg:text-5xl">Di portofolio saya</h2>
         </div>
       </main>
 

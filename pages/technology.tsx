@@ -12,13 +12,13 @@ const Technology = (): JSX.Element => {
 
       <AppHeader/>
 
-      <main className="container mx-auto flex flex-1 flex-col items-center justify-center p-4">
+      <main className="container mx-auto flex flex-1 flex-col items-center justify-center overflow-hidden p-4">
         <div className="flex w-full max-w-sm flex-col items-start gap-8 lg:max-w-4xl lg:flex-row">
           <section className="flex w-full flex-col gap-6">
-            <h2 className="text-center font-mono text-2xl font-bold text-slate-800 dark:text-slate-100 md:text-3xl lg:text-4xl">Keahlian</h2>
+            <h2 className="animate__animated animate__fadeInTopLeft text-center font-mono text-2xl font-bold text-slate-800 dark:text-slate-100 md:text-3xl lg:text-4xl">Keahlian</h2>
 
-            <div className="grid grid-cols-6 items-center justify-center gap-4">
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+            <div className="animate__animated animate__fadeInBottomLeft grid grid-cols-6 items-center justify-center gap-4">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>HTML5</title>
 
                 <path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"></path>
@@ -27,7 +27,7 @@ const Technology = (): JSX.Element => {
                 <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>CSS 3</title>
 
                 <path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path>
@@ -38,14 +38,14 @@ const Technology = (): JSX.Element => {
                 <path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>Javascript</title>
 
                 <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"></path>
                 <path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>Vue.js</title>
 
                 <path d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01" fill="none"></path>
@@ -53,7 +53,7 @@ const Technology = (): JSX.Element => {
                 <path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z" fill="#41b883"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>Nuxt.js</title>
 
                 <path d="M39.267 108.97l-.284-.567c-.567-1.135-.567-2.27-.283-3.689H8.059L53.454 24.14l19.009 34.33 6.241-4.54L59.695 19.6c-.283-.567-2.553-3.971-6.241-3.971-1.703 0-4.256.567-6.242 4.255L1.25 101.31c-.284.852-2.27 4.54-.568 7.66 1.135 1.703 2.838 3.405 6.81 3.405h38.585c-3.972 0-5.958-1.702-6.81-3.404z" fill="#00c58e"></path>
@@ -61,7 +61,7 @@ const Technology = (): JSX.Element => {
                 <path d="M106.51 108.97v-.284l.284-.567c.283-1.135.567-2.27.283-3.405l-1.134-3.404-28.938-50.501-4.256-7.66h-.284l-4.256 7.66-28.938 50.5-1.134 3.405a6.81 6.81 0 00.567 4.256c1.135 1.702 2.837 3.405 6.809 3.405h53.906c.851 0 5.107-.284 7.093-3.405zM72.464 58.469l26.386 46.245H46.079z" fill="#2f495e"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>React.js</title>
 
                 <g fill="#61DAFB">
@@ -70,19 +70,19 @@ const Technology = (): JSX.Element => {
                 </g>
               </svg>
 
-              <svg className="h-8 w-8 dark:fill-white md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 dark:fill-white md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>Next.js</title>
 
                 <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z"></path>
               </svg>
 
-              <svg className="h-8 w-8 dark:fill-white md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 dark:fill-white md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>Express.js</title>
 
                 <path d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7l26.92-36.13L67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21 6.45-8.55 12.8-16.67 18.8-25.11 2.41-3.42 5-4.72 9.33-3.46-3.28 4.35-6.49 8.63-9.72 12.88-4.36 5.73-8.64 11.53-13.16 17.14-1.61 2-1.35 3.3.09 5.19C109.9 76 118.16 87.1 126.67 98.44zM1.33 61.74c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.39 52.62 62.9 65H7.1c-.84 22.21 15.15 35.62 35.53 28.78 7.15-2.4 11.36-8 13.47-15 1.07-3.51 2.84-4.06 6.14-3.06-1.69 8.76-5.52 16.08-13.52 20.66-12 6.86-29.13 4.64-38.14-4.89C5.26 85.89 3 78.92 2 71.39c-.15-1.2-.46-2.38-.7-3.57q.03-3.04.03-6.08zm5.87-1.49h50.43c-.33-16.06-10.33-27.47-24-27.57-15-.12-25.78 11.02-26.43 27.57z"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>PHP</title>
 
                 <defs>
@@ -113,13 +113,13 @@ const Technology = (): JSX.Element => {
                 <path fill="#000004" d="M38.67 54.89c2.66 0 4.434.491 5.32 1.474.885.982 1.097 2.668.633 5.057-.484 2.488-1.416 4.264-2.798 5.328-1.382 1.063-3.485 1.595-6.308 1.595h-4.26l2.614-13.453h4.799v-.001zM21.609 81.962h7.002l1.661-8.546h5.998c2.646 0 4.823-.277 6.532-.834 1.709-.556 3.263-1.488 4.661-2.797a14.369 14.369 0 002.85-3.569c.727-1.3 1.242-2.734 1.547-4.305.741-3.811.182-6.778-1.676-8.904s-4.812-3.189-8.862-3.189H27.856l-6.247 32.144zm35.394-40.691h6.947l-1.661 8.546h6.189c3.894 0 6.58.68 8.059 2.037 1.479 1.359 1.921 3.561 1.33 6.603l-2.906 14.959h-7.058l2.763-14.223c.314-1.618.199-2.722-.347-3.311-.546-.587-1.708-.882-3.485-.882h-5.553l-3.578 18.416h-6.947l6.247-32.145zM93.324 54.89c2.66 0 4.434.491 5.319 1.474.887.982 1.097 2.668.634 5.057-.484 2.488-1.417 4.264-2.799 5.328-1.382 1.063-3.484 1.595-6.308 1.595h-4.259l2.614-13.453h4.799v-.001zm-17.06 27.072h7.002l1.661-8.546h5.997c2.646 0 4.823-.277 6.532-.834 1.71-.556 3.264-1.488 4.661-2.797a14.35 14.35 0 002.851-3.569c.726-1.3 1.242-2.734 1.547-4.305.74-3.811.182-6.778-1.676-8.904s-4.812-3.189-8.863-3.189H82.511l-6.247 32.144z"></path>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 50 52" xmlns="http://www.w3.org/2000/svg">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 50 52" xmlns="http://www.w3.org/2000/svg">
                 <title>Laravel</title>
 
                 <path d="M49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1-.402.694l-9.209 5.302V39.25c0 .286-.152.55-.4.694L20.42 51.01c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1-.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054L.402 39.944A.801.801 0 0 1 0 39.25V6.334c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216l17.62-10.144zM1.602 7.719v31.068L19.22 48.93v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-.002-21.481L4.965 9.654 1.602 7.72zm8.81-5.994L2.405 6.334l8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764l4.645-2.674V7.719l-3.363 1.936-4.646 2.675v20.096l3.364-1.937zM39.243 7.164l-8.006 4.609 8.006 4.609 8.005-4.61-8.005-4.608zm-.801 10.605l-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937v-9.124zM20.02 38.33l11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833 7.993 4.524z" fill="#FF2D20" fillRule="evenodd"/>
               </svg>
 
-              <svg className="h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
+              <svg className="animate__animated animate__fadeIn animate__slow h-8 w-8 md:h-10 md:w-10" viewBox="0 0 128 128">
                 <title>Java</title>
 
                 <path fill="#0074BD" d="M47.617 98.12s-4.767 2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873 3.351-24.439 10.47-55.308-.607-36.115-5.969zm-2.988-13.665s-5.348 3.959 2.823 4.805c10.567 1.091 18.91 1.18 33.354-1.6 0 0 1.993 2.025 5.132 3.131-29.542 8.64-62.446.68-41.309-6.336z"></path>
@@ -132,36 +132,36 @@ const Technology = (): JSX.Element => {
           </section>
 
           <section className="flex w-full flex-col gap-4">
-            <h2 className="text-center font-mono text-2xl font-bold text-slate-800 dark:text-slate-100 md:text-3xl lg:text-4xl">Pengalaman</h2>
+            <h2 className="animate__animated animate__fadeInTopRight text-center font-mono text-2xl font-bold text-slate-800 dark:text-slate-100 md:text-3xl lg:text-4xl">Pengalaman</h2>
 
-            <div className="grid grid-cols-2 items-center gap-2">
-              <span className="text-left font-medium">Frontend</span>
-              <span className="text-right font-medium">55%</span>
-              <div className="col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
+            <div className="animate__animated animate__fadeInBottomRight grid grid-cols-2 items-center gap-2">
+              <span className="animate__animated animate__fadeIn text-left font-medium">Frontend</span>
+              <span className="animate__animated animate__fadeIn text-right font-medium">55%</span>
+              <div className="animate__animated animate__fadeIn col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
                 <div className="w-[55%] bg-blue-500 p-1.5"/>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 items-center gap-2">
-              <span className="text-left font-medium">Backend</span>
-              <span className="text-right font-medium">36%</span>
-              <div className="col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
+            <div className="animate__animated animate__fadeInBottomRight grid grid-cols-2 items-center gap-2">
+              <span className="animate__animated animate__fadeIn text-left font-medium">Backend</span>
+              <span className="animate__animated animate__fadeIn text-right font-medium">36%</span>
+              <div className="animate__animated animate__fadeIn col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
                 <div className="w-[36%] bg-blue-500 p-1.5"/>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 items-center gap-2">
-              <span className="text-left font-medium">Full stack</span>
-              <span className="text-right font-medium">27%</span>
-              <div className="col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
+            <div className="animate__animated animate__fadeInBottomRight grid grid-cols-2 items-center gap-2">
+              <span className="animate__animated animate__fadeIn text-left font-medium">Full stack</span>
+              <span className="animate__animated animate__fadeIn text-right font-medium">27%</span>
+              <div className="animate__animated animate__fadeIn col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
                 <div className="w-[27%] bg-blue-500 p-1.5"/>
               </div>
             </div>
 
-            <div className="grid grid-cols-2 items-center gap-2">
-              <span className="text-left font-medium">UI/UX Design</span>
-              <span className="text-right font-medium">8%</span>
-              <div className="col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
+            <div className="animate__animated animate__fadeInBottomRight grid grid-cols-2 items-center gap-2">
+              <span className="animate__animated animate__fadeIn text-left font-medium">UI/UX Design</span>
+              <span className="animate__animated animate__fadeIn text-right font-medium">8%</span>
+              <div className="animate__animated animate__fadeIn col-span-2 w-full overflow-hidden rounded border border-slate-300 dark:border-slate-700">
                 <div className="w-[8%] bg-blue-500 p-1.5"/>
               </div>
             </div>
