@@ -1,5 +1,18 @@
 # Changelog
 
+<a name="0.4.0"></a>
+## 0.4.0 (2023-01-05)
+
+### Added
+
+- ➕ Add animate.css [[0753b9d](https://github.com/Md-E7/md-portfolio/commit/0753b9d82f9a00e9de84509da418481ccaa3cb2b)]
+
+### Miscellaneous
+
+- 💫 Add animations [[a5eb098](https://github.com/Md-E7/md-portfolio/commit/a5eb098ccda76a876632d53d09c4c08341c79c5a)]
+- 🔍 Improve SEO [[73360b5](https://github.com/Md-E7/md-portfolio/commit/73360b5564e9566daf164ce429bf6a48db2a2018)]
+
+
 <a name="0.3.0"></a>
 ## 0.3.0 (2022-12-10)
 
