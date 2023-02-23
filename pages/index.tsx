@@ -2,8 +2,14 @@ import Head from 'next/head'
 import AppHeader from '../components/AppHeader'
 import AppFooter from '../components/AppFooter'
 import Image from 'next/image'
+import { GetStaticProps } from 'next'
+import { Repository } from '../types'
+import dayjs from 'dayjs'
+import relativeTime from 'dayjs/plugin/relativeTime'
 
-const Index = (): JSX.Element => {
+dayjs.extend(relativeTime)
+
+const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
   return (
     <>
       <Head>
@@ -90,6 +96,37 @@ const Index = (): JSX.Element => {
             </div>
           </div>
         </section>
+
+        <section id={'my_projects'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4'}>
+          <div className={'flex flex-col gap-4 text-center'}>
+            <h2 className={'text-2xl font-bold'}>Proyek saya</h2>
+
+            {repos.length === 0 && (
+              <p className={'text-slate-500'}>Belum ada proyek.</p>
+            )}
+
+            {repos.length === 1 && (
+              <p className={'text-slate-500'}>Ini adalah proyek yang saya buat.</p>
+            )}
+
+            {repos.length > 1 && (
+              <p className={'text-slate-500'}>Ini semua adalah proyek yang saya buat.</p>
+            )}
+          </div>
+
+          <div className={'grid grid-cols-1 gap-2'}>
+            {repos.map(value => (
+              <a key={value.id} href={value.html_url} className={'group flex w-full flex-col gap-1 rounded bg-white p-4 shadow'}>
+                <h3 className={'text-xl font-semibold group-hover:text-blue-500'}>{value.name}</h3>
+                <p className={'text-sm text-slate-500'}>{value.description ?? 'No description'}</p>
+                <div className={'flex justify-between'}>
+                  <p className={'text-sm text-slate-500'}>{value.language}</p>
+                  <p className={'text-sm text-slate-500'}>Updated {dayjs(value.updated_at).fromNow()}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
       </main>
 
       <AppFooter/>
@@ -98,3 +135,14 @@ const Index = (): JSX.Element => {
 }
 
 export default Index
+
+export const getStaticProps: GetStaticProps = async () => {
+  const response = await fetch('https://api.github.com/users/Md-E7/repos')
+  const repos = await response.json()
+
+  return {
+    props: {
+      repos
+    }
+  }
+}
