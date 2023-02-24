@@ -37,7 +37,7 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
                 <span className={'font-medium'}>Halo 👋</span>
                 <span>Saya Egi, saya ingin menjadi Full Stack Developer.</span>
               </p>
-              <p className={'text-slate-500 dark:text-slate-400'}>Saya sudah belajar dan mencoba beberapa bahasa program, framework dan juga library.</p>
+              <p className={'text-slate-500 dark:text-slate-400'}>Saya sudah belajar dan mencoba beberapa bahasa pemrograman, kerangka kerja dan alat.</p>
               <p className={'text-slate-500 dark:text-slate-400'}>Saya kurang bagus dalam mendesain tampilan jadi saya biasanya mencari referensi dari beberapa website dan menggabungkan referensi yang saya dapat dan mulai membuat tampilan.</p>
             </div>
 
@@ -58,7 +58,7 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
         <section id={'my_skills'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4 sm:max-w-xl lg:max-w-4xl xl:max-w-5xl'}>
           <div className={'mx-auto flex flex-col gap-4 text-center lg:max-w-xl'}>
             <h2 className={'text-2xl font-bold sm:text-3xl'}>Kehalian saya</h2>
-            <p className={'text-slate-500 dark:text-slate-400 sm:text-lg'}>Ini semua adalah bahasa program, bahasa markah, kerangka kerja, alat, yang biasa saya gunakan dan sudah luamayn saya pahami.</p>
+            <p className={'text-slate-500 dark:text-slate-400 sm:text-lg'}>Ini semua adalah bahasa pemrograman, bahasa markah, kerangka kerja dan alat yang biasa saya gunakan dan sudah luamayn saya pahami.</p>
           </div>
 
           <div className={'grid grid-cols-2 items-center justify-items-center gap-2 sm:grid-cols-3 lg:gap-2.5 xl:grid-cols-4'}>
