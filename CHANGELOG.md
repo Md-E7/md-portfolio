@@ -1,5 +1,35 @@
 # Changelog
 
+<a name="1.0.0"></a>
+## 1.0.0 (2023-02-24)
+
+### Added
+
+- ✨ Add dark mode [[3abd9f6](https://github.com/Md-E7/md-portfolio/commit/3abd9f6d8a4f087a50e619a59cc92da1aa098093)]
+- ✨ Add section my projects [[1d6ac14](https://github.com/Md-E7/md-portfolio/commit/1d6ac14e6b964c67164caeeb691261fc05707a0f)]
+- ➕ Add dayjs [[bc15340](https://github.com/Md-E7/md-portfolio/commit/bc15340f01a93f2769ec8b484043e732b1ef94ed)]
+- ✨ Add section my skills [[6868eb8](https://github.com/Md-E7/md-portfolio/commit/6868eb841eeb8e4c74c4421b71402f36594563a3)]
+- ✨ Add section about me [[8d94650](https://github.com/Md-E7/md-portfolio/commit/8d9465018c1726e228e765c268597889a94ea402)]
+- ✨ Update app header component [[8e57990](https://github.com/Md-E7/md-portfolio/commit/8e57990672ed8ab5eee014f7ca030eea05c1fe8e)]
+
+### Changed
+
+- 📱 Add responsive design [[db79b98](https://github.com/Md-E7/md-portfolio/commit/db79b98151d57b77cbe4c18d91d71de9bae8d555)]
+- ♻️ Move svg tag to file [[8865697](https://github.com/Md-E7/md-portfolio/commit/886569789bf174583cd5c39c8a562c4ae8dcaee6)]
+
+### Removed
+
+- 🔥 Remove code and file [[a4f78c8](https://github.com/Md-E7/md-portfolio/commit/a4f78c8655de0959eb001d4b67587bd92a59039d)]
+
+### Fixed
+
+- 🐛 Fix dark mode [[41f23a4](https://github.com/Md-E7/md-portfolio/commit/41f23a44a5e45ea8ff17d15088da57070c37482f)]
+
+### Miscellaneous
+
+- 💫 Add transition [[d5c8245](https://github.com/Md-E7/md-portfolio/commit/d5c8245d07a8b3f043372163ca115d9bf881cda5)]
+
+
 <a name="0.4.0"></a>
 ## 0.4.0 (2023-01-05)
 
