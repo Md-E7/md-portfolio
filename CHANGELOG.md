@@ -1,5 +1,17 @@
 # Changelog
 
+<a name="1.0.1"></a>
+## 1.0.1 (2023-02-24)
+
+### Added
+
+- ✨ Update text [[600ce4e](https://github.com/Md-E7/md-portfolio/commit/600ce4ea8d002a5d482957100da96730fb24dc38)]
+
+### Fixed
+
+- 🐛 Fix md-e7 logo position on mobile when using desktop mode [[d607e79](https://github.com/Md-E7/md-portfolio/commit/d607e79150d9f1c57be46771a1ad0322b24a7448)]
+
+
 <a name="1.0.0"></a>
 ## 1.0.0 (2023-02-24)
 
