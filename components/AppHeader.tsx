@@ -49,7 +49,7 @@ const AppHeader = (): JSX.Element => {
         </button>
 
         {isMobileMenuOpen &&
-          <nav className={'absolute right-5 top-0 flex translate-y-1/2 flex-col rounded border border-slate-300 bg-white shadow'}>
+          <nav className={'absolute right-5 top-0 flex translate-y-1/2 flex-col rounded border border-slate-300 bg-white shadow dark:border-slate-700 dark:bg-slate-800'}>
             <a href="#about_me" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Tentang saya</a>
             <a href="#my_skills" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Kehalian saya</a>
             <a href="#my_projects" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Proyek saya</a>
