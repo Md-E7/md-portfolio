@@ -14,7 +14,7 @@ const AppHeader = (): JSX.Element => {
       <h1 className={'text-3xl font-bold sm:text-4xl'}>Md-E7</h1>
 
       <div className={'flex items-center gap-2 lg:hidden'}>
-        <button onClick={toggleTheme} className={'rounded-lg p-1'}>
+        <button onClick={toggleTheme} className={'rounded-full p-1 hover:bg-slate-200 dark:hover:bg-slate-800'}>
           {theme === 'light' && (
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6 sm:h-8 sm:w-8">
               <title>Light</title>
@@ -37,7 +37,7 @@ const AppHeader = (): JSX.Element => {
           )}
         </button>
 
-        <button onClick={toggleMobileMenu} className={'rounded-lg p-1'}>
+        <button onClick={toggleMobileMenu} className={'rounded-full p-1 hover:bg-slate-200 dark:hover:bg-slate-800'}>
           {isMobileMenuOpen
             ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-6 w-6 sm:h-8 sm:w-8">
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12"/>
@@ -50,21 +50,21 @@ const AppHeader = (): JSX.Element => {
 
         {isMobileMenuOpen &&
           <nav className={'absolute right-5 top-0 flex translate-y-1/2 flex-col rounded border border-slate-300 bg-white shadow'}>
-            <a href="#about_me" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium sm:text-lg'}>Tentang saya</a>
-            <a href="#my_skills" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium sm:text-lg'}>Kehalian saya</a>
-            <a href="#my_projects" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium sm:text-lg'}>Proyek saya</a>
+            <a href="#about_me" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Tentang saya</a>
+            <a href="#my_skills" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Kehalian saya</a>
+            <a href="#my_projects" onClick={closeMobileMenu} className={'py-1.5 px-3 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Proyek saya</a>
           </nav>
         }
       </div>
 
       <div className={'hidden items-center gap-4 lg:flex'}>
         <nav className={'flex gap-2'}>
-          <a href="#about_me" onClick={closeMobileMenu} className={'py-1.5 px-2 font-medium sm:text-lg'}>Tentang saya</a>
-          <a href="#my_skills" onClick={closeMobileMenu} className={'py-1.5 px-2 font-medium sm:text-lg'}>Kehalian saya</a>
-          <a href="#my_projects" onClick={closeMobileMenu} className={'py-1.5 px-2 font-medium sm:text-lg'}>Proyek saya</a>
+          <a href="#about_me" onClick={closeMobileMenu} className={'py-1.5 px-2 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Tentang saya</a>
+          <a href="#my_skills" onClick={closeMobileMenu} className={'py-1.5 px-2 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Kehalian saya</a>
+          <a href="#my_projects" onClick={closeMobileMenu} className={'py-1.5 px-2 font-medium transition ease-in-out hover:text-blue-500 sm:text-lg'}>Proyek saya</a>
         </nav>
 
-        <button onClick={toggleTheme} className={'rounded-lg p-1'}>
+        <button onClick={toggleTheme} className={'rounded-full p-1 hover:bg-slate-200 dark:hover:bg-slate-800'}>
           {theme === 'light' && (
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6 sm:h-8 sm:w-8">
               <title>Light</title>

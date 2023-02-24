@@ -22,10 +22,10 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
 
       <main className="flex flex-col items-center justify-center">
         <section id={'about_me'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4 sm:max-w-xl lg:max-w-4xl lg:flex-row-reverse lg:items-center xl:max-w-5xl'}>
-          <Image src={'/images/md-e7.svg'} alt={'Md-E7 logo'} width={500} height={500} className="m-auto w-44 rounded-full border border-slate-300 dark:border-slate-800 sm:w-52 lg:w-64"/>
+          <Image src={'/images/md-e7.svg'} alt={'Md-E7 logo'} width={500} height={500} className="m-auto w-44 rounded-full border border-slate-300 shadow-lg transition ease-in-out hover:scale-105 dark:border-slate-800 sm:w-52 lg:w-64"/>
 
           <div className={'flex flex-col gap-4 text-center lg:text-start'}>
-            <h2 className={'text-2xl font-bold sm:text-3xl'}>
+            <h2 className={'text-2xl font-bold sm:text-3xl lg:text-4xl'}>
               <span>Made Egi Darma Saputra</span>
               <br/>
               <span>Front-End</span>
@@ -42,7 +42,7 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
             </div>
 
             <div className={'flex items-center justify-center gap-2 lg:justify-start'}>
-              <a href="https://github.com/md-e7">
+              <a href="https://github.com/md-e7" className={'rounded-full p-1 transition ease-in-out hover:scale-105 hover:bg-slate-200 dark:hover:bg-slate-800'}>
                 <svg className="h-8 w-8 dark:fill-white" viewBox="0 0 128 128">
                   <title>Github</title>
                   <g>
@@ -61,50 +61,50 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
             <p className={'text-slate-500 dark:text-slate-400 sm:text-lg'}>Ini semua adalah bahasa program, bahasa markah, kerangka kerja, alat, yang biasa saya gunakan dan sudah luamayn saya pahami.</p>
           </div>
 
-          <div className={'grid grid-cols-2 items-center justify-items-center gap-2 sm:grid-cols-3 xl:grid-cols-4'}>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+          <div className={'grid grid-cols-2 items-center justify-items-center gap-2 sm:grid-cols-3 lg:gap-2.5 xl:grid-cols-4'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/html5.svg'} alt={'HTML5 Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>HTML5</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/css3.svg'} alt={'CSS 3 Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>CSS 3</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/javascript.svg'} alt={'JavaScript Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>JavaScript</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/nodejs.svg'} alt={'Node.js Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>Node.js</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/typescript.svg'} alt={'TypeScript Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>TypeScript</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/eslint.svg'} alt={'ESLint Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>ESLint</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <Image src={'/images/tailwindcss.svg'} alt={'Tailwind CSS Logo'} width={32} height={32} className={'h-10 w-10'}/>
               <span className={'font-medium lg:text-lg'}>Tailwind CSS</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className={'h-10 w-10 dark:fill-white dark:stroke-white'}>
                 <title>Next.js</title>
                 <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-6.8V41.8h6.8l50.5 75.8C116.4 106.2 128 86.5 128 64c0-35.3-28.7-64-64-64zm22.1 84.6l-7.5-11.3V41.8h7.5v42.8z"/>
               </svg>
               <span className={'font-medium lg:text-lg'}>Next.js</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" className={'h-10 w-10 dark:fill-white dark:stroke-white'}>
                 <title>Koa</title>
                 <path d="M0 5.587v12.757h1.19v-4.099l.46-.527 3.147 4.626h1.19L2.33 12.97l2.773-3.13h-.17L1.19 14.058v-8.47zm11.039 4.185c-1.19 0-2.177.391-2.96 1.173-.77.783-1.156 1.883-1.156 3.3 0 1.418.374 2.467 1.122 3.147.749.68 1.718 1.02 2.909 1.02 1.202 0 2.188-.39 2.96-1.173.782-.783 1.173-1.883 1.173-3.3 0-1.417-.374-2.466-1.122-3.147-.749-.68-1.724-1.02-2.926-1.02zm8.896 0c-1.043 0-2.07.232-3.079.697l.068.12c.261-.148.67-.296 1.225-.443.567-.159 1.06-.238 1.48-.238.42 0 .76.057 1.02.17.26.102.442.227.545.374.102.148.18.3.238.46.068.147.09.272.068.374.007.97 0 1.988 0 2.976a9.269 9.269 0 00-.834-.034c-.306 0-.64.017-1.003.051-1.463.091-2.41.34-2.841.749-.215.204-.346.391-.391.561-.046.17-.068.329-.068.476 0 .136.011.273.034.409.193 1.292 1.003 1.939 2.432 1.939 1.225 0 2.115-.505 2.67-1.514v.357c0 .181.131.397.392.646.283.295.81.443 1.582.443H24v-.136h-.527l-.187-.034c-.136-.012-.272-.103-.409-.273-.124-.181-.187-.436-.187-.765v-5.698c0-.363-.147-.709-.442-1.038-.498-.557-1.564-.624-2.313-.63zm-8.862.136c.862 0 1.553.329 2.075.986.522.658.783 1.673.783 3.045 0 1.36-.284 2.427-.85 3.198-.568.76-1.282 1.14-2.144 1.14-.862 0-1.554-.33-2.075-.987-.522-.658-.783-1.667-.783-3.028 0-1.372.284-2.438.85-3.198.568-.77 1.282-1.156 2.144-1.156zm9.491 4.456c.318 0 .63.012.936.034v2.058c-.034.386-.295.789-.783 1.208a2.416 2.416 0 01-1.616.613c-.907 0-1.411-.601-1.513-1.803a3.155 3.155 0 01-.02-.307c0-.499.131-.89.392-1.173.26-.284.822-.477 1.684-.579.314-.038.64-.039.92-.05z"/>
               </svg>
               <span className={'font-medium lg:text-lg'}>Koa.js</span>
             </div>
-            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow dark:bg-slate-800'}>
+            <div className={'flex h-full w-full max-w-sm items-center justify-center gap-4 rounded bg-white p-2 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" className={'h-10 w-10 dark:fill-white dark:stroke-white'}>
                 <title>Express.js</title>
                 <path d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7l26.92-36.13L67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21 6.45-8.55 12.8-16.67 18.8-25.11 2.41-3.42 5-4.72 9.33-3.46-3.28 4.35-6.49 8.63-9.72 12.88-4.36 5.73-8.64 11.53-13.16 17.14-1.61 2-1.35 3.3.09 5.19C109.9 76 118.16 87.1 126.67 98.44zM1.33 61.74c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.39 52.62 62.9 65H7.1c-.84 22.21 15.15 35.62 35.53 28.78 7.15-2.4 11.36-8 13.47-15 1.07-3.51 2.84-4.06 6.14-3.06-1.69 8.76-5.52 16.08-13.52 20.66-12 6.86-29.13 4.64-38.14-4.89C5.26 85.89 3 78.92 2 71.39c-.15-1.2-.46-2.38-.7-3.57q.03-3.04.03-6.08zm5.87-1.49h50.43c-.33-16.06-10.33-27.47-24-27.57-15-.12-25.78 11.02-26.43 27.57z"/>
@@ -131,10 +131,10 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
             )}
           </div>
 
-          <div className={'grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3'}>
+          <div className={'grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3 md:gap-4 lg:grid-cols-3'}>
             {repos.map(value => (
-              <a key={value.id} href={value.html_url} className={'group flex w-full flex-col gap-1 rounded bg-white p-4 shadow dark:bg-slate-800'}>
-                <h3 className={'truncate text-xl font-semibold group-hover:text-blue-500'}>{value.name}</h3>
+              <a key={value.id} href={value.html_url} className={'group flex w-full flex-col gap-1 rounded bg-white p-4 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
+                <h3 className={'truncate text-xl font-semibold transition ease-in-out group-hover:text-blue-500'}>{value.name}</h3>
                 <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.description ?? 'No description'}</p>
                 <div className={'flex justify-between'}>
                   <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.language}</p>
