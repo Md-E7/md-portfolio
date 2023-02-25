@@ -157,9 +157,14 @@ export const getStaticProps: GetStaticProps = async () => {
   const response = await fetch('https://api.github.com/users/Md-E7/repos')
   const repos = await response.json()
 
+  if (!response.ok) {
+    throw new Error('Failed to fetch repositories')
+  }
+
   return {
     props: {
       repos
-    }
+    },
+    revalidate: 60
   }
 }
