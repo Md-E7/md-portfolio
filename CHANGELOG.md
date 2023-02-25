@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="1.0.2"></a>
+## 1.0.2 (2023-02-25)
+
+### Fixed
+
+- 🐛 Fix getStaticProps not fetch new repository [[e6a3e5e](https://github.com/Md-E7/md-portfolio/commit/e6a3e5e02238ac8e9060597a9465d12d5ec12b50)]
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2023-02-24)
 
