@@ -4,9 +4,11 @@ import AppFooter from '../components/AppFooter'
 import Image from 'next/image'
 import { GetStaticProps } from 'next'
 import { Repository } from '../types'
+import 'dayjs/locale/id'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 
+dayjs.locale('id')
 dayjs.extend(relativeTime)
 
 const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
@@ -135,10 +137,10 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
             {repos.map(value => (
               <a key={value.id} href={value.html_url} className={'group flex w-full flex-col gap-1 rounded bg-white p-4 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
                 <h3 className={'truncate text-xl font-semibold transition ease-in-out group-hover:text-blue-500'}>{value.name}</h3>
-                <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.description ?? 'No description'}</p>
+                <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.description ?? 'Tidak ada deskripsi'}</p>
                 <div className={'flex justify-between'}>
                   <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.language}</p>
-                  <p className={'text-sm text-slate-500 dark:text-slate-400'}>Updated {dayjs(value.updated_at).fromNow()}</p>
+                  <p className={'text-sm text-slate-500 dark:text-slate-400'}>Diperbarui {dayjs(value.updated_at).fromNow()}</p>
                 </div>
               </a>
             ))}
