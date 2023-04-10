@@ -23,7 +23,7 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
       <AppHeader/>
 
       <main className="flex flex-col items-center justify-center">
-        <section id={'about_me'} className={'flex min-h-screen w-full max-w-sm flex-col items-center justify-center gap-6 p-4 sm:max-w-xl lg:max-w-4xl lg:flex-row-reverse lg:items-center lg:justify-between xl:max-w-5xl'}>
+        <section id={'about_me'} className={'flex min-h-screen w-full max-w-sm flex-col items-center justify-center gap-6 p-4 sm:max-w-xl md:max-w-2xl lg:max-w-4xl lg:flex-row-reverse lg:items-center lg:justify-between xl:max-w-5xl'}>
           <Image src={'/images/md-e7.svg'} alt={'Md-E7 logo'} width={500} height={500} className="w-44 rounded-full border border-slate-300 shadow-lg transition ease-in-out hover:scale-105 dark:border-slate-800 sm:w-52 lg:w-64"/>
 
           <div className={'flex flex-col gap-4 text-center lg:text-start'}>
@@ -57,8 +57,8 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
           </div>
         </section>
 
-        <section id={'my_skills'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4 sm:max-w-xl lg:max-w-4xl xl:max-w-5xl'}>
-          <div className={'mx-auto flex flex-col gap-4 text-center lg:max-w-xl'}>
+        <section id={'my_skills'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4 sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl'}>
+          <div className={'mx-auto flex flex-col gap-2 text-center lg:max-w-xl'}>
             <h2 className={'text-2xl font-bold sm:text-3xl'}>Kehalian saya</h2>
             <p className={'text-slate-500 dark:text-slate-400 sm:text-lg'}>Ini semua adalah bahasa pemrograman, bahasa markah, kerangka kerja dan alat yang biasa saya gunakan dan sudah luamayn saya pahami.</p>
           </div>
@@ -116,8 +116,8 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
           </div>
         </section>
 
-        <section id={'my_projects'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4 sm:max-w-xl lg:max-w-4xl xl:max-w-5xl'}>
-          <div className={'mx-auto flex flex-col gap-4 text-center lg:max-w-xl'}>
+        <section id={'my_projects'} className={'flex min-h-screen w-full max-w-sm flex-col justify-center gap-6 p-4 sm:max-w-[40rem] md:max-w-2xl lg:max-w-4xl xl:max-w-5xl'}>
+          <div className={'mx-auto flex flex-col gap-2 text-center lg:max-w-xl'}>
             <h2 className={'text-2xl font-bold sm:text-3xl'}>Proyek saya</h2>
 
             {repos.length === 0 && (
