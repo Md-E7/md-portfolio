@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 type Theme = 'light' | 'dark' | 'system' | undefined
 
-const useTheme = (): [Theme, () => void] => {
+const useTheme = (): [('light' | 'dark' | 'system' | undefined), (() => void), ((value: (((prevState: ('light' | 'dark' | 'system' | undefined)) => ('light' | 'dark' | 'system' | undefined)) | 'light' | 'dark' | 'system' | undefined)) => void)] => {
   const [theme, setTheme] = useState<Theme>()
 
   const setDarkTheme = (): void => {
@@ -61,7 +61,7 @@ const useTheme = (): [Theme, () => void] => {
     }
   }
 
-  return [theme, toggle]
+  return [theme, toggle, setTheme]
 }
 
 export default useTheme
