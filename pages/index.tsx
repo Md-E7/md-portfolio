@@ -31,7 +31,7 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
               <span>Made Egi Darma Saputra</span>
               <br/>
               <span>Front-End</span>
-              <span className={'ml-2 text-blue-600 dark:text-blue-500'}>Developer</span>
+              <span className={'ml-2 text-sky-600 dark:text-sky-500'}>Developer</span>
             </h2>
 
             <div className={'flex flex-col gap-2 sm:text-lg lg:max-w-lg'}>
@@ -136,7 +136,7 @@ const Index = ({ repos }: { repos: Repository[] }): JSX.Element => {
           <div className={'grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3 md:gap-4 lg:grid-cols-3'}>
             {repos.filter(value => !value.is_template).map(value => (
               <a key={value.id} href={value.html_url} className={'group flex w-full flex-col gap-1 rounded bg-white p-4 shadow transition ease-in-out hover:scale-105 dark:bg-slate-800'}>
-                <h3 className={'truncate text-xl font-semibold transition ease-in-out group-hover:text-blue-500'}>{value.name}</h3>
+                <h3 className={'truncate text-xl font-semibold transition ease-in-out group-hover:text-sky-500'}>{value.name}</h3>
                 <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.description ?? 'Tidak ada deskripsi'}</p>
                 <div className={'flex justify-between'}>
                   <p className={'text-sm text-slate-500 dark:text-slate-400'}>{value.language}</p>
