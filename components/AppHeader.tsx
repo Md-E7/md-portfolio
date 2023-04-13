@@ -15,8 +15,8 @@ const AppHeader = (): JSX.Element => {
     setMobileMenuOpen(false)
   }
 
-  const [mobileMenuElement] = useClickOutside(closeMobileMenu)
   const [themeMenuElement] = useClickOutside(closeThemeMenu)
+  const [mobileMenuElement] = useClickOutside(closeMobileMenu)
 
   return (
     <header className={'sticky top-0 flex items-center justify-between p-4 md:px-6 lg:px-10 xl:px-12'}>
