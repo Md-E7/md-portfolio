@@ -1,5 +1,44 @@
 # Changelog
 
+<a name="1.2.1"></a>
+## 1.2.1 (2023-04-13)
+
+### Fixed
+
+- 🐛 Fix npm run build not working [[343d348](https://github.com/Md-E7/md-portfolio/commit/343d34838563267b19ade5d50f6a081800f5c62e)]
+
+
+<a name="1.2.0"></a>
+## 1.2.0 (2023-04-12)
+
+### Added
+
+- ✨ Add click outside hook [[310c147](https://github.com/Md-E7/md-portfolio/commit/310c1473b79be999edcdbb8d856704da8663885f)]
+- ✨ Add dropdown menu for theme [[0eebb68](https://github.com/Md-E7/md-portfolio/commit/0eebb6815aa693940066ddd63f014938d6d39b9c)]
+
+### Changed
+
+- 💄 Update style [[1815e17](https://github.com/Md-E7/md-portfolio/commit/1815e17ad23ed9b07184f3fdb49ebc88c4c190a6)]
+
+### Removed
+
+- ➖ Remove react-click-away-listener [[1d835d3](https://github.com/Md-E7/md-portfolio/commit/1d835d300eb2b02238a223631f70fa58d6707301)]
+
+
+<a name="1.1.0"></a>
+## 1.1.0 (2023-04-10)
+
+### Added
+
+- ✨ Add footer [[0ac6b58](https://github.com/Md-E7/md-portfolio/commit/0ac6b580a0c72266206c88bcb26d280961f91f01)]
+- ✨ Add array filter [[a5338df](https://github.com/Md-E7/md-portfolio/commit/a5338dff74f2c4eef8adda27ff23641cc2c23537)]
+
+### Changed
+
+- 💄 Update responsive and gap [[635ae3f](https://github.com/Md-E7/md-portfolio/commit/635ae3fde3e6e2eafa2c3bb9308be8a4ba52e053)]
+- 💬 Update text [[bccff25](https://github.com/Md-E7/md-portfolio/commit/bccff25d9a7d933fda6becfc41140ca224cd27ed)]
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2023-02-25)
 
